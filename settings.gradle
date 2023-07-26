@@ -12,5 +12,13 @@ dependencyResolutionManagement {
     mavenCentral()
   }
 }
+
 rootProject.name = "AnimeVerse"
+
 include ':app'
+include ':appCompose'
+include ':features:home'
+include ':data:datasource'
+include ':data:model'
+include ':data:remote'
+include ':data:repository'
